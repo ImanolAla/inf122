@@ -1,0 +1,10 @@
+body{
+    font-family: 'nunito';
+    margin:0;
+}
+:root{
+    --white: #ffffff;
+    --black: #000000;
+    --purple: #6f2cff;
+    
+}
