@@ -1,0 +1,50 @@
+.calculator {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.input {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #180202;
+  border-radius: 5px;
+}
+
+.result {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #140202;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  font-size: 1.5em;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #cb0e0e; 
+  border: 1px solid #070000;
+  border-radius: 5px;
+}
+
+button {
+  color: #78186a;
+  font-size: 1.5em;
+  padding: 10px;
+  cursor: pointer;
+}
+button.equal {
+  color: #140303;
+  background-color: #07828f; /* Color de fondo del botón igual */
+}
+
+button.clear {
+  color: #130ead;
+  background-color: #6c0e71; /* Color de fondo del botón de limpiar */
+}
